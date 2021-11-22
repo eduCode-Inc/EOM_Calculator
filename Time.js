@@ -17,6 +17,7 @@ function Time()
                 v = Math.sqrt(u*u + 2*a*d);
                 t = (v - u) / a;
 		document.write("Time: " + t + "<br>");
+                alert("Time = " + t + " Click OK to see summary");
                 break;
             }
             case 'v':
@@ -26,9 +27,9 @@ function Time()
 		t = parseFloat(t);               
                 t = (v - u) / a;
 		document.write("Time: " + t + "<br>");
+                alert("Time = " + t + " Click OK to see summary");
                 break;
             }            		
         }
-        alert("Time = " + t + " Click OK to see summary");
 	document.write("Thank for using eduCode's product. To know more about eduCode, click on the link below" + "<br>");
 }
