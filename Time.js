@@ -16,18 +16,18 @@ function Time()
 		d = parseFloat(d);		                
                 v = Math.sqrt(u*u + 2*a*d);
                 t = (v - u) / a;
-		document.write("Time: " + t + "<br>");
-                alert("Time = " + t + " Click OK to see summary");
+		alert("Time = " + t + " Click OK to see summary");
+                document.write("Time: " + t + "<br>");
                 break;
             }
             case 'v':
             {
-                t = prompt("Enter FinalVelocity(v)"); 
+                v = prompt("Enter FinalVelocity(v)"); 
 		document.write("Final Velocity: " + v + "<br>");
-		t = parseFloat(t);               
+		v = parseFloat(v);               
                 t = (v - u) / a;
-		document.write("Time: " + t + "<br>");
-                alert("Time = " + t + " Click OK to see summary");
+		alert("Time = " + t + " Click OK to see summary");
+                document.write("Time: " + t + "<br>");
                 break;
             }            		
         }
