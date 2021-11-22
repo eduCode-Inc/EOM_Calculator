@@ -22,7 +22,7 @@ function Distance()
                document.write("Time:"+ t + "<br>")
                s=(u*t) + (1.0/2.0 * a * t * t);
                document.write("Distance :"+ s + "<br>")
-               alert("Distance = " + s + "Click OK to see summary");
+               alert("Distance = " + s + " Click OK to see summary");
                break;
              }
              case("v"):
@@ -32,7 +32,7 @@ function Distance()
                 document.write("Final Velocity:"+ v + "<br>")
                 s=((v*v) -(u*u))/ 2*a;
                 document.write("Distance :"+ s + "<br>")
-                alert("Distance = " + s + "Click OK to see summary");
+                alert("Distance = " + s + " Click OK to see summary");
                 break;
              }
             }
@@ -51,7 +51,7 @@ function Distance()
                document.write("Time:"+ t + "<br>")
                s=(1.0/2.0 * a * t * t);
                document.write("Distance :"+ s + "<br>")
-               alert("Distance = " + s + "Click OK to see summary");
+               alert("Distance = " + s + " Click OK to see summary");
                break;
              }
              case("v"):
@@ -61,7 +61,7 @@ function Distance()
                 document.write("Final Velocity:"+ v + "<br>")
                 s=(v*v)/ 2*a;
                 document.write("Distance :"+ s + "<br>")
-                alert("Distance = " + s + "Click OK to see summary");
+                alert("Distance = " + s + " Click OK to see summary");
                 break;
              }
              
