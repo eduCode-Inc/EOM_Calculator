@@ -1,5 +1,6 @@
 #beginning {
-    color: green;
+    font-weight: 900;
+    font-size: 100%;
     text-align: center;
     vertical-align: middle;
     font-family: 'Courier New';
@@ -7,13 +8,23 @@
 }
 
 #index {
-    color: blue;
     text-align: center;
     font-size: large;
     font-family: 'Courier New';
+    font-weight: 900;
 }
 
 #btn {
+    text-align: center;
+    font-size: small;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    background-image: url("https://i.pinimg.com/originals/ef/05/4d/ef054d5a01a25eca025cb535820b0d86.jpg");
+}
+
+.summary {
     text-align: center;
     font-size: small;
     font-family: 'Courier New', Courier, monospace;
