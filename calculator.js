@@ -4,30 +4,34 @@ document.write("<p id = 'index'>" + "Enter 'a' for acceleration" + "<br>" + "Ent
 function askInput() {
     chzzzz = prompt("Enter character: ");
     switch(chzzzz) {
-        case "a":
+        case "a": case "A": case "(a)": case "(A)":
             {
                 Acceleration();
                 break;
             }
-        case "u":
+        case "u": case "U": case "(u)": case ("U"):
             {
                 initialVelocity();
                 break;
             }
-        case "v":
+        case "v": case "V": case "(v)": case "(V)":
             {
                 FinalVelocity();
                 break;
             }
-        case "t":
+        case "t": case "T": case "(t)": case "(T)":
             {
                 Time();
                 break;
             }
-        case "d":
+        case "d": case "D": case "(d)": case "(D)":
             {
                 Distance();
                 break;
+            }
+        default:
+            {
+                alert("Unknown error:" + " Please enter a valid character.");
             }
     }
 }
