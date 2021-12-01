@@ -33,4 +33,5 @@ function Time()
         }
         document.write('<p class = "summary">' + "Thank for using eduCode's product. To know more about eduCode, click on the link below" + "<br>" + '</p>');
         document.write('<div class = "summary">' + "<a href = 'https://sites.google.com/view/educode-inc'> eduCode Inc. </a>" + "<br>" + '</div>');    
+        document.write('<p class = "summary">' + "Had problems with the product? Contact customer service now: " + '<a href = "mailto: educode2021@outlook.com">' + "Click Here" + '</a>' + "</p>");
 }
