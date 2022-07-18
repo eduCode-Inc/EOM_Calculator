@@ -9,7 +9,7 @@ function FinalVelocity()
         choice = prompt("Enter 'd' if you have Distance and 't' if you have Time");        
         switch (choice)
         {
-            case 'd':
+            case 'd': case 'D': case '(d)': case '(D)':
             {
                 d = prompt("Enter distance(d)");
 		document.write('<p class = "summary">' + "Distance: " + d + "<br>" + '</p>');
@@ -18,7 +18,7 @@ function FinalVelocity()
 		document.write('<p class = "summary">' + "Final Velocity: " + v + "<br>" + '</p>');
                 break;
             }
-            case 't':
+            case 't': case 'T': case '(t)': case '(T)':
             {
                 t = prompt("Enter time(t)"); 
 		document.write('<p class = "summary">' + "Time: " + t + "<br>" + '</p>');

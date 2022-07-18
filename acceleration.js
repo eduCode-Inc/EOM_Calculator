@@ -3,13 +3,13 @@ function Acceleration() {
                 document.write('<p class = "summary">' + "Initial Velocity: " + u + "<br>" + '</p>');
                 v1 = prompt("Do you have the value of final velocity? Enter 'y' for yes and 'n' for no")
                 switch (v1) {
-                    case "y": case "Y":
+                    case 'y': case 'Y': case '(y)': case '(Y)':
                         {
                             v = prompt("Enter Final Velocity");
                             document.write('<p class = "summary">' + "Final Velocity: " + v + "<br>" + '</p>');
                             dt = prompt("Do you have the value of distance or time? Enter 'd' for distance and 't' for time");
                             switch (dt) {
-                                case "d": case "D":
+                                case 'd': case 'D': case '(d)': case '(D)':
                                     {
                                         d = prompt("Enter distance");
                                         document.write('<p class = "summary">' + "Distance: " + d + "<br>" + '</p>');
@@ -21,7 +21,7 @@ function Acceleration() {
                                         document.write('<p class = "summary">' + "Acceleration: " + a + "<br>" + '</p>');
                                         break;
                                     }
-                                case "t": case "T":
+                                case 't': case 'T': case '(t)': case '(T)':
                                     {
                                         t = prompt("Enter time");
                                         document.write('<p class = "summary">' + "Time: " + t + "<br>" + '</p>');
@@ -36,7 +36,7 @@ function Acceleration() {
                             }
                             break;
                         }
-                    case "n": case "N":
+                    case 'n': case 'N': case '(n)': case '(N)':
                         {
                             d = prompt("Enter distance");
                             document.write('<p class = "summary">' + "Distance: " + d + "<br>" + '</p>');
