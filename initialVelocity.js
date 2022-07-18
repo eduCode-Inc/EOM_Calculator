@@ -18,6 +18,7 @@ function initialVelocity() {
 							d = parseFloat(d);
 							u = ((v*v) - (2*a*d));
 							alert("Initial Velocity is " + u + " Click OK to see summary.");
+							document.write('<p class = "summary">' + "Initial Velocity: " + v + "<br>" + '</p>');
 							break;
 						}
 					case "t":
@@ -29,7 +30,7 @@ function initialVelocity() {
 							v = parseFloat(v);
 							u = v - (a*t);
 							alert("Initial Velocity is " + u + " Click OK to see summary.");
-							document.write('<p class = "summary">' + "Velocity: " + v + "<br>" + '</p>');
+							document.write('<p class = "summary">' + "Initial Velocity: " + v + "<br>" + '</p>');
 							break;
 						}
 				}
